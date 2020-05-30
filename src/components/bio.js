@@ -36,8 +36,12 @@ function Bio() {
             <p>
               Adventures in software engineering and user interface design
               {` `}
+              <br/>
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                Follow me on Twitter  
+              </a>
+              <a href={`https://github.com/boisselle`}>
+                Browse my GitHub
               </a>
             </p>
           </Container>
