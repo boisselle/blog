@@ -34,12 +34,13 @@ function Bio() {
               }}
             /> */}
             <p>
-              Adventures in software engineering and user interface design
+              Musings on coding, UX/UI, and hacker culture
               {` `}
               <br/>
               <a href={`https://twitter.com/${social.twitter}`}>
                 Follow me on Twitter  
               </a>
+               {"  "}•{"  "}
               <a href={`https://github.com/boisselle`}>
                 Browse my GitHub
               </a>
