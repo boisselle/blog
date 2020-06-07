@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import Button from "../components/button"
+import customCSS from '../../css/custom.css'
 
 class Blog extends React.Component {
   render() {
@@ -24,12 +25,13 @@ class Blog extends React.Component {
               <div key={node.fields.slug}>
                 <h3
                   style={{
-                    marginBottom: rhythm(1 / 4),
+                    marginBottom: rhythm(1/20),
                   }}
                 >
                   <Link
                     style={{ boxShadow: `none` }}
                     to={`blog${node.fields.slug}`}
+                    activeStyle={{ color: `red` }}
                   >
                     {title}
                   </Link>
@@ -45,7 +47,7 @@ class Blog extends React.Component {
           })}
         </div>
         <Link to="/">
-          <Button marginTop="85px">Main</Button>
+          <Button marginTop="10px">Main</Button>
         </Link>
       </Layout>
     )
