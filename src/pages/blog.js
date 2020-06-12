@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import Button from "../components/button"
-import customCSS from '../../css/custom.css'
+
 
 class Blog extends React.Component {
   render() {
@@ -31,7 +31,6 @@ class Blog extends React.Component {
                   <Link
                     style={{ boxShadow: `none` }}
                     to={`blog${node.fields.slug}`}
-                    activeStyle={{ color: `red` }}
                   >
                     {title}
                   </Link>

@@ -71,6 +71,7 @@ class Layout extends React.Component {
         </div>
         <Footer>
           © 2020 Sean Boisselle
+          
         </Footer>
       </Wrapper>
     )
