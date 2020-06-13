@@ -23,7 +23,7 @@ class IndexPage extends React.Component {
             👋
           </span> */}
         </h1>
-        <h3>Specializing in JavaScript and Python <br /> with React, Gatsby, ME*N, Django and Flask. <br /><br />Skilled in full-stack development from conceptualization to deployment.</h3>
+        <h3>Skilled in full-stack development from conceptualization to deployment.<br /><br />Specializing in JavaScript and Python with React, Gatsby, Node, Django and Flask.</h3>
         <Link to="/blog/">
           <Button marginTop="25px">Read my Blog</Button>
         </Link>
