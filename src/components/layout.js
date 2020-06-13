@@ -22,6 +22,7 @@ class Layout extends React.Component {
             marginTop: 0,
             color: `Black`,
             borderBottom: "7px solid Aqua",
+            // width: `65%`,
             width: `65%`,
           }}
         >
@@ -43,6 +44,9 @@ class Layout extends React.Component {
           style={{
             fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
+            color: `Black`,
+            borderBottom: "4px solid Aqua",
+            width: `33%`,
           }}
         >
           <Link
