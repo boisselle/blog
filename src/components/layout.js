@@ -4,6 +4,7 @@ import styled from "styled-components"
 
 import { rhythm, scale } from "../utils/typography"
 import { blue } from "color-name";
+import { UniqueDirectivesPerLocationRule } from "graphql";
 
 class Layout extends React.Component {
   render() {
@@ -19,7 +20,10 @@ class Layout extends React.Component {
             ...scale(1.2),
             marginBottom: rhythm(1.5),
             marginTop: 0,
-            color: `darkCyan`,
+            color: `Black`,
+            borderBottom: "7px solid Aqua",
+            width: `65%`,
+            
           }}
         >
           <Link
@@ -71,7 +75,7 @@ class Layout extends React.Component {
         </div>
         <Footer>
           © 2020 Sean Boisselle
-          
+
         </Footer>
       </Wrapper>
     )

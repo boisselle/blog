@@ -25,11 +25,11 @@ class Blog extends React.Component {
               <div key={node.fields.slug}>
                 <h3
                   style={{
-                    marginBottom: rhythm(1/20),
+                    marginBottom: rhythm(.33),
                   }}
                 >
                   <Link
-                    style={{ boxShadow: `none` }}
+                    style={{ boxShadow: `none`, backgroundColor: `cyan`, color: `black`, padding: `5px`}}
                     to={`blog${node.fields.slug}`}
                   >
                     {title}

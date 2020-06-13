@@ -20,22 +20,10 @@ function Bio() {
         const { author, social } = data.site.siteMetadata
         return (
           <Container>
-            {/* <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-                borderRadius: `100%`,
-              }}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
-            /> */}
+
             <p>
-              Musings on coding, UX/UI, and hacker culture
-              {` `}
+              <i>Musings on coding, UX/UI, and hacker culture</i>
+              {/* { {` `}
               <br/>
               <a href={`https://twitter.com/${social.twitter}`}>
                 Follow me on Twitter  
@@ -43,7 +31,7 @@ function Bio() {
                {"  "}•{"  "}
               <a href={`https://github.com/boisselle`}>
                 Browse my GitHub
-              </a>
+              </a> } */}
             </p>
           </Container>
         )

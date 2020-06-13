@@ -17,18 +17,17 @@ class IndexPage extends React.Component {
         />
         {/* <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" /> */}
         <h1>
-          Software Engineer and User Interface Designer
+          Software Engineer <br />+ UI Designer
           {/* Hey people{" "}
           <span role="img" aria-label="wave emoji">
             👋
           </span> */}
         </h1>
-        <h3>Specializing in JavaScript and Python, with Gatsby, React, ME*N, Django and Flask.</h3>
-        <h3>Skilled in relational and non-relational database design and development.</h3>
+        <h3>Specializing in JavaScript and Python <br /> with React, Gatsby, ME*N, Django and Flask. <br /><br />Skilled in full-stack development from conceptualization to deployment.</h3>
         <Link to="/blog/">
           <Button marginTop="25px">Read my Blog</Button>
         </Link>
-        <p> Portfolio 👇</p>
+        <h4> Portfolio coming soon.</h4>
       </Layout>
     )
   }
