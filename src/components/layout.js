@@ -23,7 +23,6 @@ class Layout extends React.Component {
             color: `Black`,
             borderBottom: "7px solid Aqua",
             width: `65%`,
-            
           }}
         >
           <Link
