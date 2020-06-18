@@ -23,10 +23,11 @@ class IndexPage extends React.Component {
             👋
           </span> */}
         </h1>
-        <p style={{fontSize: "25px", fontWeight: "bold", fontFamily: "Helvetica"}}> Based in San Francisco</p>
-        <h3>Skilled in full-stack development from conceptualization to deployment.<br /><br />
-        Specializing in JavaScript and Python with React, Gatsby, Node, Django and Flask.<br/><br/>
-        Based in San Francisco</h3>
+        <p style={{fontSize: "22px", fontFamily: "Helvetica", marginTop: "3px"}}> Based in San Francisco</p>
+        <h3>
+          Skilled in full-stack development from conceptualization to deployment.<br /><br />
+          Specializing in JavaScript and Python with React, Gatsby, Node, Django and Flask.
+        </h3>
         <Link to="/blog/">
           <Button marginTop="25px">Read my Blog</Button>
         </Link>
